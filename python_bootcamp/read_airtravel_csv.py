@@ -1,7 +1,7 @@
 import csv
 print('Use built-in reader')
 with open('airtravel.csv') as f:
-    # reader function from csv used to read the file
+    # reader function from csv module used to read the file
     # returns an iterable object
     reader = csv.reader(f)
     for row in reader:
